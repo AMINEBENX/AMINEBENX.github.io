@@ -1,0 +1,77 @@
+html{
+    background-color: rgb(245, 152, 183);
+}
+
+body {
+    text-align: center;
+}
+
+ul, ol {
+  list-style: none;       
+  padding: 0;             
+  text-align: center;     
+}
+
+h1{
+    font-family : "Montserrat" ;
+    font-style: bold;
+    font-size: 48px;
+}
+
+h2{
+    font-family : "Montserrat" ;
+    font-weight: 550;
+    font-size: 24px;
+}
+
+h3{
+    font-family : "Montserrat" ;
+    font-weight: 450;
+    font-size: 18px;
+}
+
+p,figcaption,li{
+    font-family : "Montserrat" ;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+fieldset {
+    align-items: center;
+    max-width: 500;
+    height: 50px;
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: dashed;
+    font-family: "Montserrat";
+}
+input[type="radio"]:checked {
+    accent-color: pink;
+}
+
+input[type="text"] {
+    font-family: "Montserrat";
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    border-width: 0;
+    border-radius: 10px;
+}
+
+
+button {
+    font-family: "Montserrat";
+    font-size: 25px;
+    color: white;
+    background-color: rgb(245, 152, 183);
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+}
