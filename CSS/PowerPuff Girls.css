@@ -51,6 +51,7 @@ fieldset {
     border-style: dashed;
     font-family: "Montserrat";
 }
+
 input[type="radio"]:checked {
     accent-color: pink;
 }

@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="CSS\Survey Form.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+</style>
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <section>  
+            <title>Kindergarten Survey</title>
+            <h1 id="title">Kindergarten Survey</h1>
+            <p id="description">Tell us about your child's experience in our Kindergarten.</p>
+        </section> 
+    </head>
+    <body>
+        <form action="https://formsubmit.co/aminebenx91@gmail.com" method="post" id="survey-form">
+            <fieldset class="background">
+                <legend>Please Fill out the fields.</legend>
+                <label class="text-label" id="name-label" for="name">Name (required)<input type="text" id="name" placeholder="Type your name." required/></label>
+                <label class="text-label" id="email-label" for="email">Email (required)<input type="email" id="email" placeholder="Type your email." required/></label>
+                <label class="text-label" id="number-label" for="number">Rate Your Experience With us (1-10)<input type="number" id="number" min="1" max="10" placeholder="10"/></label>
+            </fieldset>
+            <fieldset class="background">
+                <legend>What is your child's favorite Actvity (select one)</legend>
+                <select id="dropdown" required>
+                    <option value="select">Select your child's favorite activity (required)</option>
+                    <option value="reading">Reading</option>
+                    <option value="art">Art</option>
+                    <option value="sports">Sports</option>
+                    <option value="music">Music</option>
+                </select>
+            </fieldset>
+            <fieldset class="background">
+                <legend>Would you recommend us to family members or friends ?</legend>
+                <label for="yes"><input type="radio" id="yes" name="recommend" value="yes" checked/>Yes</label>
+                <label for="likely"><input type="radio" id="likely" name="recommend" value="likely"/>Likely</label>
+                <label for="not-sure"><input type="radio" id="not-sure" name="recommend" value="not-sure"/>Not sure</label>
+                <label for="unlikely"><input type="radio" id="unlikely" name="recommend" value="unlikely"/>Unlikely</label>
+                <label for="no"><input type="radio" id="no" name="recommend" value="no"/>No</label>
+                <hr>
+                <label class="text-label" for="recommendation-reason">Why you would or would not recommend our Kindergarten (optional)<input type="text" id="recommendation-reason" placeholder="Type your reason here"/></label>
+            </fieldset>
+            <fieldset class="background">
+                <legend>What are the areas that you would like us to improve on ?</legend>
+                <hr>
+                <label for="food"><input type="checkbox" id="food" name="improvements" value="food">Food</label>
+                <label for="teachers"><input type="checkbox" id="teachers" name="improvements" value="teachers">Teachers</label>
+                <label for="facilities"><input type="checkbox" id="facilities" name="improvements" value="facilities">Facilities</label>
+                <label for="activities"><input type="checkbox" id="activites" name="improvements" value="activites">Activites</label>
+                <hr>
+            </fieldset>
+            <fieldset class="background">
+                <legend>Do you have anything you would like to say ?</legend>
+                <textarea id="comments" placeholder="Any additional comments or suggestions?"></textarea>
+                <label for="comments"></label>
+            </fieldset>
+            <input type="submit" value="Submit" id="submit"/>
+        </form>
+    </body>
+</html>

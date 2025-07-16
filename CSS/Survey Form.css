@@ -1,0 +1,76 @@
+html{
+    background-image: url("https://previews.123rf.com/images/saenal78/saenal781809/saenal78180900004/107334358-background-for-cute-little-kids-hand-drawn-children-drawings-color-seamless-pattern-sketched.jpg");
+}
+h1,p{
+    text-align: center;
+}
+body{
+    font-family: 'delius',sans-serif;
+    margin: 0 auto ;
+    width: 75vw;
+    max-width: 600px;
+    min-width: 400px;
+}
+.background{
+  background-color: pink;  
+}
+fieldset{
+    border: 2px dotted black;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex ;
+    flex-direction: column;
+}
+section{
+    margin: 0 auto;
+    margin-top: 1.5em;
+    width: 40vw;
+    border: 2px dotted black;
+    border-radius: 10px;
+    background-color: pink;
+}
+legend{
+    background-color: pink;
+    padding: 0.75em 1em;
+    border: 2px dotted black;
+    border-radius: 10px;
+}
+textarea{
+    width: 100%;
+    height: 8em; 
+    margin: 1em 0; 
+}
+textarea,input,select{
+    font-family: delius, sans-serif;
+    border: 2px dotted black;
+}
+
+::placeholder{
+    font-family: delius, sans-serif;
+}
+
+.text-label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+input[type="radio"]:checked, input[type="checkbox"]:checked{
+    accent-color: pink;
+    color: pink;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2reem;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: pink;
+    color: black;
+    border: 2px dotted black;
+    padding: 0.5em 4em;
+    border-radius: 10px;
+    cursor: pointer;
+}
