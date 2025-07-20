@@ -40,6 +40,7 @@ p{
     max-width: 650px;
     margin-top: 0px ;
     margin-bottom: 1em;
+    border-radius: 10px;
 }
 figcaption{
     font-family: Archivo,sans-serif;
